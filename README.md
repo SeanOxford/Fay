@@ -1,5 +1,6 @@
 # Sean Oxford - Fay Demo
 
+[Video here](https://drive.google.com/file/d/13Osal751hV5hFCLY-aW7_WSsOfH3p86n/view?usp=sharing)
 
 # Code Philosophy
 
