@@ -43,7 +43,7 @@ Love Retrofit, used it for years, but I'm a huge fan of Ktor. It's a super light
 # Notes
 
 * Totally scuffed the transition from login to the appointments screen last minute, that'd be the first thing I'd polish up with more time
-
+* Would have also liked to add persistence with Room for offline usage
 
 
 
