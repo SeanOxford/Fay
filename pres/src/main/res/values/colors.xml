@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="brand_color">#6775e7</color>
+        <color name="brand_accent_light">#EDEFFF</color>
+        <color name="accent_grey">#f1f1f1</color>
+        <color name="border_light">#dddddd</color>
+        <color name="grey">#999999</color>
+        <color name="transparent">#00000000</color>
+        <color name="text_primary">#191b1e</color>
+        <color name="text_secondary">#474749</color>
+        <color name="text_active">@color/brand_color</color>
+        <color name="background_primary">#FFFFFF</color>
+        <color name="icon_light">#FFFFFF</color>
+        <color name="icon_dark">@color/brand_color</color>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FayProject" parent="Theme.MaterialComponents.Light.NoActionBar" />
+
+    <style name="Theme.MyApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/brand_color</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_recurring</item>
+        <item name="postSplashScreenTheme">@style/Theme.FayProject</item>
+    </style>
+
+</resources>

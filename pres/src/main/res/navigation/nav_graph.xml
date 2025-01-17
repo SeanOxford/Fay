@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/Fragment_app_intro">
+
+    <fragment
+        android:id="@+id/Fragment_app_intro"
+        android:name="com.oxford.sean.pres.screen.appintro.AppIntroFragment" />
+
+    <fragment
+        android:id="@+id/Fragment_login"
+        android:name="com.oxford.sean.pres.screen.login.LoginFragment" />
+
+    <fragment
+        android:id="@+id/Fragment_appointments"
+        android:name="com.oxford.sean.pres.screen.appointments.AppointmentsFragment" />
+
+    <action
+        android:id="@+id/Fragment_appointments_clear_stack"
+        app:destination="@id/Fragment_appointments"
+        app:popUpTo="@id/Fragment_app_intro"
+        app:popUpToInclusive="true"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out" />
+
+    <action
+        android:id="@+id/Fragment_app_intro_clear_stack"
+        app:destination="@id/Fragment_app_intro"
+        app:popUpTo="@id/Fragment_appointments"
+        app:popUpToInclusive="true"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out"
+        />
+
+    <action
+        android:id="@+id/goToLogin"
+        app:destination="@id/Fragment_login"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out" />
+
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_intro_cta_login">Client login</string>
+    <string name="app_intro_cta_signup">Don\'t have an account? Find a dietitian.</string>
+
+    <string name="loading_dialog_title">Loading</string>
+
+    <string name="logout_button">Logout</string>
+    <string name="login_screen_title">Log in to your account</string>
+    <string name="login_field_username_hint">Username</string>
+    <string name="login_field_password_hint">Password</string>
+    <string name="login_screen_cta">Login</string>
+
+    <string name="appointment_cta_join_call">Join Zoom</string>
+
+</resources>

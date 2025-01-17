@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ImageView_app_intro_fragment_logo"
+        android:layout_width="160dp"
+        android:layout_height="125dp"
+        android:src="@drawable/gr_logo"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toTopOf="@+id/ImageView_app_intro_fragment_graphic"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/ImageView_app_intro_fragment_graphic"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/gr_intro"
+        android:contentDescription="@null"
+        app:layout_constraintBottom_toTopOf="@+id/Button_app_intro_fragment_login_cta" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Button_app_intro_fragment_login_cta"
+        style="@style/CtaButton"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginBottom="@dimen/margin_medium"
+        android:text="@string/app_intro_cta_login"
+        android:textColor="@color/background_primary"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/TextView_app_intro_fragment_sign_up_cta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/TextView_app_intro_fragment_sign_up_cta"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="@dimen/margin_medium"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="84dp"
+        android:gravity="center"
+        android:text="@string/app_intro_cta_signup"
+        android:textColor="@color/text_active"
+        android:textSize="18sp"
+        android:textStyle="bold"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
