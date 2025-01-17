@@ -30,6 +30,10 @@ Hilt is also a great library, but I feel like it was built to soften the harsh l
 
 Love Retrofit, used it for years, but I'm a huge fan of Ktor. It's a super lightweight and mechanical networking library built by the creators of Kotlin and heavily integrated into the language itself
 
+## findViewById vs Everything else
+
+I've thoroughly used butterknife, viewbinding, databinding, and kotlin synthetics, and findViewById is the simplest, straightforward axiomatic way of view referencing that will never throw curve balls
+
 # Time Estimates
 
 * Initial architectural framework - 1~ hour
@@ -40,10 +44,11 @@ Love Retrofit, used it for years, but I'm a huge fan of Ktor. It's a super light
 * Intro/Login UI logic - 1.5 hours
 
 
-# Notes
+# Todo
 
 * Totally scuffed the transition from login to the appointments screen last minute, that'd be the first thing I'd polish up with more time
-* Would have also liked to add persistence with Room for offline usage
+* Offline persistence with Room
+* Syncing build.gradle android, kotlin, and java versions with project-wide consts
 
 
 
