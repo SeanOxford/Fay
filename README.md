@@ -34,7 +34,7 @@ Love Retrofit, used it for years, but I'm a huge fan of Ktor. It's a super light
 
 * Initial architectural framework - 1~ hour
 * Network call data logic - 1~ hour
-* Appointments domain logic - 1~ hours
+* Appointments domain logic - 1~ hour
 * Appointments UI logic - 2~ hours
 * Account management logic with logout - 2~ hours
 * Intro/Login UI logic - 1.5 hours
